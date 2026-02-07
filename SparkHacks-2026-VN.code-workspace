@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "SparkHacks-2026-VN",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/*.rpyc": true,
+			"**/*.rpa": true,
+			"**/*.rpymc": true,
+			"**/cache/": true
+		}
+	}
+}
