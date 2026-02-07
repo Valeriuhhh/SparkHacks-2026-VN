@@ -3,8 +3,11 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define j = Character("Jen")
+image bg_room = Transform("bg room.jpg", size=(1920, 1080))
+
+define j = Character("Jen", image = "jen")
 define m = Character("The Machine")
+
 
 # The game starts here.
 
@@ -13,8 +16,9 @@ label start:
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
+    play music "audio/mask.wav" volume 0.3 fadein 1.0
 
-    scene bg room
+    scene bg_room
     with fade
 
     # This shows a character sprite. A placeholder is used, but you can
@@ -25,19 +29,21 @@ label start:
 
     # These display lines of dialogue.
 
-    "It was a bright, cold day in April, and the clocks were striking thirteen. I returned from my work at the Ministry of Intelligence, the data-science sector at Global Corporation."
-
-    "I had just returned from a brief 48-hour shift, scraping and depositing human-made training data for The Machine."
+    j "It was a bright, cold day in April, and the clocks were striking thirteen." 
     
-    "Human data is a rare commodity these days, so going through what little we have left has become the utmost importance to Global."
+    j "I returned from my work at the Ministry of Intelligence, the data-science sector at Global Corporation."
 
-    "Recently, corporate’s initiative has been to “ensure the reliability of The Machine, by whatever means necessary”. Admittedly, keeping up with his uptake has been a rather inconvenient process."
+    j "I had just returned from a brief 48-hour shift, scraping and depositing human-made training data for The Machine."
+    
+    j "Human data is a rare commodity these days, so going through what little we have left has become the utmost importance to Global."
 
-    "On occasion, there are times when citizens from a few towns over from our office stand outside our front door, demanding “their resources back”."
+    j "Recently, corporate’s initiative has been to “ensure the reliability of The Machine, by whatever means necessary”. Admittedly, keeping up with his uptake has been a rather inconvenient process."
 
-    "Assets such as water, job security, and electricity, all of which they blame us for revoking in the name of serving Him."
+    j "On occasion, there are times when citizens from a few towns over from our office stand outside our front door, demanding “their resources back”."
 
-    "There have even been times when I walk outside for my weekly 5-minute break, just for a can of Global-branded cola to be hurled at my head."
+    j "Assets such as water, job security, and electricity, all of which they blame us for revoking in the name of serving Him."
+
+    j "There have even been times when I walk outside for my weekly 5-minute break, just for a can of Global-branded cola to be hurled at my head."
 
     j "“It’s easy for them to blame me for their shortcomings when I’m the first person they see walking out of corporate headquarters,”"
 
