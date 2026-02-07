@@ -60,16 +60,16 @@ define gui.interface_text_color = '#404040'
 define gui.text_font = "gui/font/orbitron.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "gui/font/orbitron.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "gui/font/orbitron.ttf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 33
 
 ## The size of character names.
-define gui.name_text_size = 45
+define gui.name_text_size = 28
 
 ## The size of text in the game's user interface.
 define gui.interface_text_size = 33
@@ -131,7 +131,7 @@ define gui.namebox_tile = False
 ## number of pixels relative to the left or top side of the textbox, or 0.5 to
 ## center.
 define gui.dialogue_xpos = 402
-define gui.dialogue_ypos = 75
+define gui.dialogue_ypos = 65
 
 ## The maximum width of dialogue text, in pixels.
 define gui.dialogue_width = 1116
