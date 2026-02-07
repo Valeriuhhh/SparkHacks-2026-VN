@@ -21,7 +21,7 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    # show eileen happy
 
     # These display lines of dialogue.
 
@@ -39,7 +39,7 @@ label start:
 
     "There have even been times when I walk outside for my weekly 5-minute break, just for a can of Global-branded cola to be hurled at my head."
 
-    "“It’s easy for them to blame me for their shortcomings when I’m the first person they see walking out of corporate headquarters,” I thought to myself."
+    j "“It’s easy for them to blame me for their shortcomings when I’m the first person they see walking out of corporate headquarters,”"
 
     "“Complicit” was the belief they attempted to insinuate into my very soul. A thought that ruminated as simple malice for a being they never fully understood."
 
@@ -73,7 +73,7 @@ label start:
     
 
     label complicit:
-            '"Things happen for a reason!"'
+            j '"Things happen for a reason!"'
 
             "I affirmed this belief to myself. \nSurely, The Machine intends well. His actions lack bias and sin, much like the humans that inhabit this earth."
 
